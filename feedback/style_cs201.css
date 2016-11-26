@@ -1,0 +1,139 @@
+header {
+	background-image:url(./images/header.jpg);
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#008000;
+	padding-left:2px;
+	padding-right:2px;
+	color:black;
+	padding:2px;
+	overflow:hidden;
+	}
+
+h1 {
+  font-size:2em;
+  margin:0;
+  padding:0;
+  padding-top:5px;
+}
+
+h2 {
+  font-size:1.6em;
+  margin:0;
+  padding-bottom:10px;
+  padding-top:10px;
+ }
+ h3 {
+  font-size:1.2em;
+  margin:0;
+  padding-bottom:10px;
+  padding-top:5px;
+ }
+ hgroup {
+	position:relative;
+	top:50%;
+	width:70%;
+	float:left;
+}
+
+nav {
+	float:right;
+	width:20%;
+}
+
+nav ul {
+	list-style-type:none;
+}
+nav li {
+		float:left;
+		margin-right:5px;
+}
+body {
+	width:70%;
+	background-color:#D3D3D3;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:0px;
+	border:2px solid red;
+	}
+
+h1,h2,h3{
+	padding-left:17px;
+	
+
+}
+section {
+	background-color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:4px;
+}
+table, th, td {
+	border-style:solid 2px double;
+	padding:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:10px;
+	text-align:center;
+    border-collapse: collapse;
+	vertical-align:center;
+}
+table{
+	background-image:url(./images/wood.png);
+	margin-bottom:25px;
+	margin-right:20px;
+	margin-left:20px;
+}
+td.ques {text-align:left;
+	padding-left:4px;
+	padding:10px;
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input#shiny {
+padding: 4px 10px;
+float:right;
+margin-right:40px;
+margin-top:2%;
+/*give the background a gradient*/
+background:#ffae00; /*fallback for browsers that don't support gradients*/
+background: -webkit-linear-gradient(top, #ffae00, #d67600);
+background: -moz-linear-gradient(top, #ffae00, #d67600);
+background: -o-linear-gradient(top, #ffae00, #d67600);
+background: linear-gradient(top, #ffae00, #d67600);
+border:2px outset #dad9d8;
+/*style the text*/
+font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+font-size:0.8em;
+letter-spacing:0.05em;
+text-transform:uppercase;
+color:#fff;
+text-shadow: 0px 1px 10px #000;
+/*add to small curve to the corners of the button*/
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+}
+/****NOW STYLE THE BUTTON'S HOVER STATE***/
+input#shiny:hover, input#shiny:focus {
+border:2px solid #dad9d8;
+}
+a{
+    text-decoration: none;
+}
+div.hea img {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+textarea.textbox{
+		background-image:url(./images/wood.png) !important;
+}

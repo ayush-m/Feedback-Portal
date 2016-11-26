@@ -1,0 +1,250 @@
+header {
+	background-image:url(./images/header.jpg);
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#008000;
+	padding-left:2px;
+	padding-right:2px;
+	color:black;
+	padding:2px;
+	overflow:hidden;
+	}
+
+h1 {
+  font-size:2em;
+  margin:0;
+  padding:0;
+  padding-top:5px;
+}
+
+h2 {
+  font-size:1.6em;
+  margin:0;
+  padding-bottom:10px;
+  padding-top:10px;
+ }
+ h3 {
+  font-size:1.2em;
+  margin:0;
+  padding-bottom:10px;
+  padding-top:5px;
+ }
+ hgroup {
+	width:70%;
+	float:left;
+}
+
+nav {
+	float:right;
+	width:30%;
+}
+
+nav ul {
+	list-style-type:none;
+}
+nav li {
+		float:left;
+		margin-right:5px;
+}
+body {
+	width:70%;
+	background-color:#D3D3D3;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:0px;
+	border:2px solid blue;
+	}
+
+section {
+	background-color:white;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-left:4px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+    input#round{
+    width:70px; /*same as the height*/
+    height:70px; /*same as the width*/
+	margin-left:10px;
+	margin-top:-65px;
+	margin-right:10px;
+    background-color:green;
+    border:1px solid green; /*same colour as the background*/
+    color:#fff;
+    font-size:1.1em;
+    /*set the border-radius at half the size of the width and height*/
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 10px;
+    border-radius: 50px;
+    /*give the button a small drop shadow*/
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0, .75);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0, .75);
+    box-shadow: 2px 2px 15px rgba(0,0,0, .75);
+    }
+    /***NOW STYLE THE BUTTON'S HOVER STATE***/
+    input#round:hover{
+    background:#c20b0b;
+    border:1px solid #c20b0b;
+    /*reduce the size of the shadow to give a pushed effect*/
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+    box-shadow: 0px 0px 5px rgba(0,0,0, .75);
+    }
+
+
+input#shiny {
+float:bottom;
+padding: 4px 10px;
+float:right;
+margin-right:40px;
+/*give the background a gradient*/
+background:#ffae00; /*fallback for browsers that don't support gradients*/
+background: -webkit-linear-gradient(top, #ffae00, #d67600);
+background: -moz-linear-gradient(top, #ffae00, #d67600);
+background: -o-linear-gradient(top, #ffae00, #d67600);
+background: linear-gradient(top, #ffae00, #d67600);
+border:2px outset #dad9d8;
+/*style the text*/
+font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+font-size:0.8em;
+letter-spacing:0.05em;
+text-transform:uppercase;
+color:#fff;
+text-shadow: 0px 1px 10px #000;
+/*add to small curve to the corners of the button*/
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+}
+/****NOW STYLE THE BUTTON'S HOVER STATE***/
+input#shiny:hover, input#shiny:focus {
+border:2px solid #dad9d8;
+}
+a, u {
+    text-decoration: none;
+}
+img.im{
+	margin-top:0px;
+	margin-left:20%;
+}
+div.cs{
+margin-left:15%;
+}
+
+
+
+h3.bran { 
+	font-size:2em;
+	color:white;
+	position: absolute; 
+	top: 34%; 
+	left:47.5%; 
+	width: 100%; 
+}
+div.hea img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-left:10px;
+  padding-bottom:10px;
+  padding-top:10px;
+}
+div.menu{
+		margin-top:12%;
+		margin-left:-10%;
+		margin-right:35%;
+		margin-bottom:10%;
+		padding-left:45%;
+}
+div.menu3{
+		margin-top:6%;
+		margin-left:-10%;
+		margin-right:35%;
+		margin-bottom:7%;
+		padding-left:45%;
+}
+div.menu1{
+		margin-top:12%;
+		margin-bottom:10%;
+		padding-left:15px;
+}
+div.back1{
+	margin-left:40%;
+	padding-top:20px;
+}
+div.back2{
+	margin-left:40%;
+}
+div.back3{
+	margin-left:40%;
+}
+div.back4{
+	margin-left:40%;
+	margin-top:-10%;
+}
+div.back{
+	margin-left:20%;
+	padding-top:20px;
+}
+div.fd{
+	margin-left:25%;
+	margin-top:-10%;
+	margin-bottom:-14%;
+	}
+div.res{
+	padding-left:10px;
+	}
+div.cl{
+	margin-left:30%;
+	margin-bottom:12%;
+}
+div.rm{
+	margin-left:35%;
+	margin-bottom:11%;
+}
+h3.res{
+	margin-left:21%;
+	padding-bottom:30px;
+}
+input#shiny1 {
+float:bottom;
+padding: 4px 10px;
+margin-top:10%;
+float:right;
+margin-right:40px;
+/*give the background a gradient*/
+background:#ffae00; /*fallback for browsers that don't support gradients*/
+background: -webkit-linear-gradient(top, #ffae00, #d67600);
+background: -moz-linear-gradient(top, #ffae00, #d67600);
+background: -o-linear-gradient(top, #ffae00, #d67600);
+background: linear-gradient(top, #ffae00, #d67600);
+border:2px outset #dad9d8;
+/*style the text*/
+font-family:Andika, Arial, sans-serif; /*Andkia is available at http://www.google.com/webfonts/specimen/Andika*/
+font-size:0.8em;
+letter-spacing:0.05em;
+text-transform:uppercase;
+color:#fff;
+text-shadow: 0px 1px 10px #000;
+/*add to small curve to the corners of the button*/
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+/*give the button a drop shadow*/
+-webkit-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+}
+/****NOW STYLE THE BUTTON'S HOVER STATE***/
+input#shiny1:hover, input#shiny1:focus {
+border:2px solid #dad9d8;
+}
